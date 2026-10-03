@@ -1,0 +1,83 @@
+body {
+    background-color: #0b1f15;
+    color: #e2f4ec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-custom {
+    background-color: #043d22;
+    color: #ffffff;
+    border-bottom: 1px solid #0b5331;
+}
+
+.card-custom {
+    background-color: #0f2d1e;
+    border: 1px solid #165b38;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.form-control, .form-select {
+    background-color: #081911;
+    border: 1px solid #165b38;
+    color: #ffffff;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #081911;
+    border-color: #2ecc71;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #7a9c8b;
+}
+
+.btn-emerald {
+    background-color: #064e3b;
+    color: #ffffff;
+    border: 1px solid #0f766e;
+    font-weight: 600;
+}
+
+.btn-emerald:hover {
+    background-color: #043d22;
+    color: #ffffff;
+    border-color: #14b8a6;
+}
+
+.table-custom th {
+    background-color: #082216 !important;
+    color: #34d399 !important;
+    border-bottom: 2px solid #165b38;
+}
+
+.table-custom td {
+    background-color: #0f2d1e !important;
+    color: #e2f4ec !important;
+    border-bottom: 1px solid #165b38;
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover td {
+    background-color: #133825 !important;
+}
+
+.badge-pending {
+    background-color: #422006;
+    color: #fde047;
+    border: 1px solid #a16207;
+}
+
+.badge-completed {
+    background-color: #022c22;
+    color: #6ee7b7;
+    border: 1px solid #047857;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1) brightness(1.5);
+    cursor: pointer;
+}
